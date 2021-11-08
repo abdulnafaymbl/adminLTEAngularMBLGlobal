@@ -1,0 +1,21 @@
+.mat-tab-label {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: burlywood;
+}
+
+.mat-tab-label-active {
+    /* color: #197bdd;
+    background-color: #df2727 !important; */
+    color: #fff;
+    background-color: #007bff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.mat-ink-bar {
+  display: none;
+}
