@@ -24,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import {CurrencyMaskInputMode, NgxCurrencyModule} from 'ngx-currency';
 import { TijarahTabsComponent } from './components/tijarah-tabs/tijarah-tabs.component';
-import { InventoryPicturesComponent } from './components/tijarah-components/inventory-pictures/inventory-pictures.component'
+import { InventoryPicturesComponent } from './components/tijarah-components/inventory-pictures/inventory-pictures.component';
+import { HtmlToPdfComponent } from './components/html-to-pdf/html-to-pdf.component'
 // import { CreateCounterPartyComponent } from './components/create-counter-party/create-counter-party.component';
 
 export const customCurrencyMaskConfig = {
@@ -58,7 +59,8 @@ export const customCurrencyMaskConfig = {
     GridComponent,
     StudentFormComponent,
     TijarahTabsComponent,
-    InventoryPicturesComponent
+    InventoryPicturesComponent,
+    HtmlToPdfComponent
 
   ],
   imports: [
@@ -81,6 +83,7 @@ export const customCurrencyMaskConfig = {
       { path : "app-grid" ,component: GridComponent },
       { path : "app-student-form" ,component: StudentFormComponent },
       { path : "app-tijarah-tabs" ,component: TijarahTabsComponent },
+      { path : "app-html-to-pdf" ,component: HtmlToPdfComponent },
       { path : "**" ,component: ErrorPageComponent }
     ]),
     
